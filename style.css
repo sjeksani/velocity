@@ -1,0 +1,110 @@
+/* Styles go here */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#search_box {
+    border-style: solid;
+    width: 220px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.top_bar {
+    float: left;
+}
+
+.display_person {
+    /*width: 200px;
+*/
+    height: 80px;
+    padding: 30px 0px 0px 30px;
+    border-collapse: collapse;
+    border: #000 solid 1px;
+    border-bottom: none;
+    margin-top: -1px;
+    cursor: pointer;
+
+}
+
+.display_person span {
+    float: right;
+    margin-right: 10px;
+}
+
+.btn {
+    font-size: 10px;
+    padding: 15px 25px 15px 25px;
+    color: #fff;
+    background-color: #3a3a3a;
+    margin-left: 150px;
+}
+
+.Person_rating {
+    margin-left: 150px;
+}
+
+#srch-term {
+    border-radius: 20px;
+}
+
+.person_image {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.person_description {
+    display: table;
+    width: 100%;
+    height: 105px;
+    -webkit-box-shadow: 10px 0 5px -2px #888;
+    box-shadow: -22.5px -10px 0px -18px #888;
+    padding: 10px;
+}
+
+.profile_header {
+    display: inline-flex;
+}
+
+#personNameInHeader {
+    font-size: 15px;
+}
+
+#glyphicon-user {
+    font-size: 30px;
+}
+
+.table-striped-row {
+    padding: 0px !important;
+}
+
+.table-striped-row div {
+    padding: 8px;
+}
+
+.table-striped-row div:nth-child(2n) {
+    background-color: #eee;
+}
+
+.display-table .display_person {
+    border-bottom: #000 solid 1px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    padding-left: 30px;
+}
+
+.input-group span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 9;
+}
